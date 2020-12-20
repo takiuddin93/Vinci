@@ -21,7 +21,7 @@ class ActionsToolbar extends StatelessWidget {
     return Container(
       width: 60.0,
       height: 60.0,
-      margin: EdgeInsets.only(top: 10.0),
+      margin: EdgeInsets.symmetric(vertical: 10.0),
       child: Stack(
         children: <Widget>[_getProfilePicture(), _getAddIcon()],
       ),
